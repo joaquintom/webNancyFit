@@ -380,7 +380,7 @@ ul, ol {
 	margin-right: -15px;
 }
 .services-pic img {
-	height: 660px;
+	height: 840px;
 	min-width: 100%;
 }
 .services-item {
@@ -391,10 +391,12 @@ ul, ol {
 	position: relative;
 	padding-left: 70px;
 	padding-right: 45px;
-	height: 330px;
+	height: 420px;
+	
 }
 .services-item.bg-gray {
 	background: #1e1e1e;
+	
 }
 .services-item.pd-b {
 	padding-top: 118px;
@@ -415,6 +417,57 @@ ul, ol {
 	color: #bdbdbd;
 	margin-bottom: 0;
 }
+
+
+
+/*---------------------
+  Main
+-----------------------*/
+
+
+/* Box */
+
+	.thumbnails {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: stretch;
+		-webkit-align-items: stretch;
+		-ms-align-items: stretch;
+		align-items: stretch;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+		.thumbnails .box {
+			margin: 0 1em 2em 1em;
+			width: 35%;
+		}
+
+			@media screen and (max-width: 1280px) {
+
+				.thumbnails .box {
+					width: 45%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.thumbnails .box {
+					width: 100%;
+				}
+
+			}
+
+			
 /*---------------------
   Classes Section
 -----------------------*/
