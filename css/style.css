@@ -104,6 +104,17 @@ ul, ol {
 	background-size: cover;
 	background-position: top center;
 }
+
+@media only screen and (max-width: 700px) {
+	
+	.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 60%;
+	}
+}
+
+
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
