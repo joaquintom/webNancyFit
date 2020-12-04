@@ -391,7 +391,7 @@ ul, ol {
 	margin-right: -15px;
 }
 .services-pic img {
-	height: 840px;
+	height: 720px;
 	min-width: 100%;
 }
 .services-item {
@@ -402,7 +402,7 @@ ul, ol {
 	position: relative;
 	padding-left: 70px;
 	padding-right: 45px;
-	height: 420px;
+	height: 360px;
 	
 }
 .services-item.bg-gray {
