@@ -110,7 +110,7 @@ ul, ol {
 	.set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 67%;
+	background-position: 47%;
 	}
 }
 
@@ -392,7 +392,7 @@ ul, ol {
 	margin-right: -15px;
 }
 .services-pic img {
-	height: 720px;
+	height: 760px;
 	min-width: 100%;
 }
 .services-item {
@@ -403,15 +403,16 @@ ul, ol {
 	position: relative;
 	padding-left: 70px;
 	padding-right: 45px;
-	height: 360px;
+	height: 380px;
 	
 }
 .services-item.bg-gray {
 	background: #1e1e1e;
+
 	
 }
 .services-item.pd-b {
-	padding-top: 118px;
+	padding-top: 110px;
 }
 .services-item img {
 	position: absolute;
@@ -733,7 +734,7 @@ ul, ol {
 
 .banner-section {
 	padding-top: 65px;
-	padding-bottom:20px;
+	padding-bottom:40px;
 }
 .banner-text {
 	padding-top: 145px;
