@@ -104,6 +104,19 @@ ul, ol {
 	background-size: cover;
 	background-position: top center;
 }
+
+@media only screen and (max-width: 700px) {
+	
+	.set-bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 67%;
+	}
+}
+
+
+
+
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -333,6 +346,7 @@ ul, ol {
 .about-text {
 	padding-top: 15px;
 	padding-left: 40px;
+	padding-bottom: 20px;
 }
 .about-text h2 {
 	font-size: 40px;
@@ -380,7 +394,7 @@ ul, ol {
 	margin-right: -15px;
 }
 .services-pic img {
-	height: 660px;
+	height: 760px;
 	min-width: 100%;
 }
 .services-item {
@@ -391,13 +405,16 @@ ul, ol {
 	position: relative;
 	padding-left: 70px;
 	padding-right: 45px;
-	height: 330px;
+	height: 380px;
+	
 }
 .services-item.bg-gray {
 	background: #1e1e1e;
+
+	
 }
 .services-item.pd-b {
-	padding-top: 118px;
+	padding-top: 110px;
 }
 .services-item img {
 	position: absolute;
@@ -415,6 +432,57 @@ ul, ol {
 	color: #bdbdbd;
 	margin-bottom: 0;
 }
+
+
+
+/*---------------------
+  Main
+-----------------------*/
+
+
+/* Box */
+
+	.thumbnails {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: stretch;
+		-webkit-align-items: stretch;
+		-ms-align-items: stretch;
+		align-items: stretch;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+		.thumbnails .box {
+			margin: 0 1em 2em 1em;
+			width: 35%;
+		}
+
+			@media screen and (max-width: 1280px) {
+
+				.thumbnails .box {
+					width: 45%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.thumbnails .box {
+					width: 100%;
+				}
+
+			}
+
+			
 /*---------------------
   Classes Section
 -----------------------*/
@@ -489,7 +557,7 @@ ul, ol {
 
 .trainer-section {
 	background: #f5f5f5;
-	padding-top: 90px;
+	padding-top: 50px;
 	padding-bottom: 190px;
 }
 .trainer-section.about-trainer {
@@ -574,6 +642,10 @@ ul, ol {
 .single-trainer-item .trainer-text .trainer-social a:last-child {
 	margin-right: 0;
 }
+
+
+
+
 /*---------------------
   Testimonial Section
 -----------------------*/
@@ -664,6 +736,7 @@ ul, ol {
 
 .banner-section {
 	padding-top: 65px;
+	padding-bottom:40px;
 }
 .banner-text {
 	padding-top: 145px;
@@ -686,7 +759,7 @@ ul, ol {
 -----------------------*/
 
 .membership-section {
-	padding-bottom: 0;
+	padding-bottom: 30px;
 }
 .membership-section .section-title {
 	margin-bottom: 55px;
@@ -1332,7 +1405,7 @@ ul, ol {
 	margin-bottom: 20px;
 }
 .bd-text .bd-more-text {
-	margin-bottom: 52px;
+	margin-bottom: 0;
 }
 .bd-text .bd-more-text .bm-item h4 {
 	font-weight: 600;
